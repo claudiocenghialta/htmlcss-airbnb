@@ -5,10 +5,9 @@
 }
 
 section {
-    height: 200px;
-    width: 400px;
+    height: 95vh;
+    width: 100vw;
     position: relative;
-    margin: 5px;
 }
 
 .foto {
@@ -16,7 +15,6 @@ section {
     width: 100%;
     object-fit: cover;
     object-position: center;
-    border-radius: 10px;
 }
 
 .layover {
@@ -25,13 +23,12 @@ section {
     right: 0;
     bottom: 0;
     left: 0;
-    border-radius: 10px;
 }
 .layover.white {
-    background-color: rgba(255, 255, 255, 0.2);
+    background-color: rgba(200, 200, 200, 0.2);
 }
 .layover.black {
-    background-color: rgba(0, 0, 0, 0.2);
+    background-color: rgba(0, 0, 0, 0.5);
 }
 .title {
     position: absolute;
